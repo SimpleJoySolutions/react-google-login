@@ -136,6 +136,7 @@ class GoogleLogin extends Component {
       tag, {
         onClick: this.signIn,
         style: defaultStyle,
+        type: 'button',
         disabled,
         className,
       }, children ? children : buttonText
